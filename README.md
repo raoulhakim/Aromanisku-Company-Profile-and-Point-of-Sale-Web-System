@@ -1,0 +1,3 @@
+In the Company Profile section, a comprehensive and detailed overview of Aromanisku's identity, values, vision, and mission is presented. The essence of our company, reflecting dedication to quality, innovation, and a commitment to delivering an exceptional customer experience, is detailed.
+
+Regarding the Point of Sale (POS) Web System developed, it's an innovative platform that revolutionizes business sales strategies. Through the utilization of MySQL and PHP integration, this system enables efficient inventory management, real-time sales tracking, and provides a responsive user interface for customers. Beyond being a mere transaction system, our POS is designed to enhance customer experiences and empower business owners to manage their operations more effectively.
