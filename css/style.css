@@ -1,0 +1,832 @@
+/* Navbar */
+.navbar {
+  height: 80px; /* Atur tinggi navbar sesuai kebutuhan Anda */
+  padding-top: 15px; /* Sesuaikan padding jika diperlukan */
+  padding-bottom: 15px;
+  box-shadow: 0px 41px 6px rgba(0, 0, 0, 0.1); /* Menyesuaikan nilai shadow */
+}
+
+/* Mengubah ukuran font untuk brand (navbar-brand) */
+.nav-brand {
+  font-size: 30px; /* Atur ukuran font */
+  color: #a52727;
+  font-family: Snippet;
+  text-decoration: none;
+}
+
+.nav-brand:hover {
+  color: #060606; /* Ganti dengan warna yang diinginkan saat dihover */
+  text-decoration: none;
+}
+
+/* Mengubah ukuran font untuk tautan navigasi (nav-link) */
+.navbar-nav .nav-link {
+  font-size: 16px; /* Atur ukuran font */
+  color: #2a2828;
+  font-style: oblique;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  padding: 8px 25px;
+  color: #9c2e2e;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+nav ul li:after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #9c2e2e;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  transition: 0.5s;
+}
+nav ul li:hover::after{
+  width:100%;
+}
+
+
+
+/* End Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  background: url(https://img.freepik.com/free-photo/cement-texture_1194-6501.jpg?w=1060&t=st=1701707006~exp=1701707606~hmac=066461eea9669ca50ae05202f29a39b660bf616d1ac93118a236bec5fe3fda08)
+    no-repeat center center;
+  padding-top: 20%;
+  padding-bottom: 30%;
+  background-size: cover;
+  height: 1100px;
+}
+
+.asik-dikunyah,
+.enak-dilidah {
+  margin: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 535.1px;
+}
+.enak-dilidah {
+  top: 128px;
+  left: 19.1px;
+  width: 474.6px;
+}
+.dapatkan-produk-terbaik {
+  position: absolute;
+  top: 256px;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 595.6px;
+}
+.asik-dikunyah-parent {
+  position: absolute;
+  top: 157px;
+  left: 50px;
+  width: 595.6px;
+  height: 343px;
+  font-size: var(--font-size-66xl);
+  font-family: var(--font-snippet);
+}
+
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 223px;
+  height: 157px;
+}
+.tanpa-pengawet {
+  position: absolute;
+  top: 106px;
+  left: 44.9px;
+  display: inline-block;
+  width: 192.2px;
+}
+.vector-icon,
+.vector-parent {
+  position: absolute;
+  top: 35px;
+  left: 82.8px;
+  width: 57.3px;
+  height: 56px;
+}
+.vector-parent {
+  top: 168px;
+  left: 700px;
+  width: 223px;
+  height: 157px;
+}
+.fresh-from-the,
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 314.3px;
+  height: 139px;
+}
+.fresh-from-the {
+  top: 90px;
+  left: 67.2px;
+  display: inline-block;
+  width: 261.2px;
+  height: 20px;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 23px;
+  left: 120px;
+  width: 74.3px;
+  height: 60.6px;
+}
+.ellipse-icon,
+.vector-group {
+  position: absolute;
+  top: 352px;
+  left: 800.4px;
+  width: 314.3px;
+  height: 139px;
+}
+.ellipse-icon {
+  top: 0;
+  left: 0;
+  width: 170.9px;
+  height: 160px;
+}
+.halal {
+  position: absolute;
+  top: 109px;
+  left: 44px;
+  display: inline-block;
+  width: 110.4px;
+}
+.group-icon {
+  position: absolute;
+  height: 38.94%;
+  width: 28.91%;
+  top: 24.25%;
+  right: 35.69%;
+  bottom: 36.81%;
+  left: 35.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-container {
+  position: absolute;
+  top: 172px;
+  left: 1001.3px;
+  width: 170.9px;
+  height: 160px;
+}
+
+#garisbawah {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: garis 1s ease;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+.svgombak{
+  transform: rotate(180deg);
+}
+
+@keyframes garis {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* End Jumbotron */
+
+/* Content */
+/* Berita */
+
+
+.contenthome {
+  background: #f6e7e7;
+}
+
+.berita{
+  padding-top: 50px;
+  margin-top: -120px;
+}
+
+.profile-details .name-job .name{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;;
+}
+.profile-details .name-job .job{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;;
+}
+
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerswiper {
+  max-width: 1100px;
+  width: 100%;
+  height: fit-content;
+  padding: 40px ;
+  left: -45px;
+}
+
+.slide-container {
+  width: 1700px;
+  margin: 30px;
+  overflow: hidden;
+  padding-right: 270px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  bottom: -50%;
+  background: #fff;
+  padding: 15px 15px 15px 20px;
+  box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+.card .image-box {
+  height: auto;
+  width: auto;
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+  color: #9c2e2e;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+.job {
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+/* End Berita */
+
+/* Produk */
+.kami-menyediakan-berbagai,
+.penilaian-dari-para {
+  margin: 30px;
+  font-family: inherit;
+  width: 700px;
+}
+
+.button-container {
+  margin-right: 50;
+  margin-top: -90;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button{
+  position: relative;
+  height: 65px;
+  width: 210px;
+  margin: 0 40px;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: #0d0d0d;
+  overflow: hidden;
+  transition: 0.6s;
+}
+button:first-child{
+  color: #eef0f1;
+  border-color: #f6f7f8;
+}
+button:last-child{
+  color: #ce5c0c;
+  border-color: #ce5c0c;
+}
+button:before, button:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  filter: blur(30px);
+  opacity: 0.4;
+  transition: 0.6s;
+}
+button:before{
+  width: 60px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+button:after{
+  width: 30px;
+  background: rgba(255,255,255,0.6);
+  transform: translateX(-130px) skewX(-45deg);
+}
+button:hover:before,
+button:hover:after{
+  opacity: 0.6;
+  transform: translateX(320px) skewX(-45deg);
+}
+button:hover{
+  color: #f2f2f2;
+}
+button:hover:first-child{
+  background: #e6e7e9;
+}
+button:hover:last-child{
+  background: #ce5c0c;
+}
+
+.containerproduk{
+  max-width: 3200px;
+  width: 100%;
+  height: fit-content;
+}
+
+.wrapper {
+  position: relative;
+  flex-wrap: wrap;
+  gap: 2vw; /* Menggunakan vw untuk ruang antar elemen */
+  margin: 3vh; /* Menggunakan vh untuk margin */
+  max-width: 86vw; /* Menggunakan vw untuk lebar maksimum */
+  display: flex;
+  align-items: center;
+  margin-left: 3.5vw; /* Menggunakan vw untuk margin kiri */
+}
+
+.wrapper .card {
+  width: 300px; /* Ubah sesuai kebutuhan */
+  height: 300px; /* Ubah sesuai kebutuhan */
+  position: relative;
+  border-radius: 1vw; /* Menggunakan vw untuk radius border */
+  overflow: hidden;
+  box-shadow: 1vw 1vw 2.5vw 0px rgba(0,0,0,0.15); /* Menggunakan vw untuk bayangan kotak */
+  flex: 0 0 calc(25% - 2vw); /* Menggunakan vw untuk lebar fleksibel */
+  max-width: calc(25% - 2vw); /* Menggunakan vw untuk lebar maksimum */
+  padding: 1vw; /* Menggunakan vw untuk padding */
+  box-sizing: border-box;
+}
+
+.wrapper .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 0.75vw; /* Menggunakan vw untuk radius border */
+  transition: all 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.wrapper .card .content {
+  position: absolute;
+  width: 100%;
+  bottom: -55vh; /* Menggunakan vh untuk posisi bottom */
+  background: #fff;
+  padding: 1.5vh 2vw 1.7vh 2vw; /* Campuran vw dan vh untuk padding */
+  box-shadow: 0px -0.75vh 2.5vh 0px rgba(0,0,0,0.15); /* Campuran vw dan vh untuk bayangan kotak */
+  transition: all 0.3s ease;
+  left: 0;
+}
+
+.wrapper .card:hover .content {
+  bottom: 0;
+}
+
+.content .row .details span {
+  font-size: 2.75vh; /* Menggunakan vh untuk ukuran font */
+  font-weight: 500;
+}
+
+.content .row .details p {
+  color: #333;
+  font-size: 2.125vh; /* Menggunakan vh untuk ukuran font */
+  font-weight: 400;
+}
+
+.content .row .price{
+  color: #ff7979;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.content .buttons {
+  margin-top: 2vh; /* Menggunakan vh untuk margin atas */
+}
+
+.content .buttons button {
+  width: 100%;
+  padding: 0.75vh 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 2.125vh; /* Menggunakan vh untuk ukuran font */
+  font-weight: 500;
+  border-radius: 0.75vw; /* Menggunakan vw untuk radius border */
+  border: 0.15vw solid #ff7979; /* Menggunakan vw untuk ketebalan border */
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.buttons button:first-child {
+  color: #ff7979;
+  margin-right: 0.75vw; /* Menggunakan vw untuk margin kanan */
+  background: #fff;
+}
+
+button:first-child:hover {
+  color: #fff;
+  background: #ff7979;
+}
+
+.buttons button:last-child {
+  color: #fff;
+  margin-left: 0.75vw; /* Menggunakan vw untuk margin kiri */
+  background: #ff7979;
+}
+
+button:last-child:hover {
+  background: #ff6666;
+  border-color: #ff6666;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 2vw); /* 2 columns for smaller screens */
+    max-width: calc(50% - 2vw); /* 2 columns for smaller screens */
+  }
+}
+
+/* End Produk */
+
+/* Testimoni */
+
+.testimoni {
+  margin-top: -50;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial {
+	padding: 80px 0;
+  margin-top: -70;
+}
+.sec-heading {
+	margin-bottom: 20px;
+  
+}
+.sec-heading h6 {
+	font-family: snippet;
+	font-weight: 900;
+	font-size: 40px;
+}
+.single-box {
+	border: 3px solid #e6f0fa;
+	padding: 50px 30px 40px;
+	border-radius: 20px;
+	background: #fff;
+}
+.img-area {
+	margin: 45px 0 20px;
+}
+.single-box img {
+	max-width: 80px;
+	border-radius: 50%;
+	margin: 0 auto
+}
+.single-box h4 {
+	font-weight: 600;
+	margin: 0;
+	font-family: snippet;
+	font-size: 25px;
+}
+.single-box {
+	overflow: hidden
+  
+}
+.single-box .img-area {
+	width: 30%;
+	float: left;
+	margin: 0  
+}
+.single-box .content {
+	width: 70%;
+	float: left;
+	padding-left: 0px
+}
+.single-box p {
+	margin: 10px 0 25px;
+	line-height: 2.3;
+}
+.testi-carousel-three .single-box {
+	border: 0;
+	padding: 0 50px;
+}
+.testi-carousel .owl-dots, .clients-carousel .owl-dots, .testi-carousel-three .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -60px;
+	text-align: center;
+	width: 100%;
+
+}
+.testi-carousel .owl-dot, .clients-carousel .owl-dot, .testi-carousel-three .owl-dot {
+	width: 16px;
+	height: 16px;
+	background-color: #ddd;
+	display: inline-block;
+	margin: 0 6px;
+	text-align: center;
+	border-radius: 50%;
+  
+}
+.testi-carousel .owl-dot.active, .clients-carousel .owl-dot.active, .testi-carousel-three .owl-dot.active {
+	background-color: #000000;
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	.testimonial {
+		padding: 70px 0 130px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+	.testimonial {
+		padding: 70px 0 130px;
+	}
+	.single-box {
+		padding: 50px 0 40px;
+	}
+	.single-box .img-area {
+		width: 100%;
+		float: none;
+	}
+	.single-box .content {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* End Testimoni */
+
+/* End Content */
+
+/* Footer */
+
+footer{
+  position: fixed;
+  background: #A52727;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+
+}
+
+.logo_name{
+  color: #ffffff;
+  font-family: Snippet;
+  font-size: 32;
+  margin-left: 30;
+}
+
+.logo_name:hover {
+  color: #000000;
+}
+
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0px 0px 0px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  .content .top .logo-details{
+    font-size: 26px;
+  }
+  .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  .content .top .media-icons{
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
+
+.top{
+  margin-right: 80px;
+}
+
+.wrapper .button{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+.wrapper .button:hover{
+  width: 150px;
+  text-decoration: none;
+
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  color: #a52727;
+
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+  text-decoration: none;
+
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+  text-decoration: none;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+  text-decoration: none;
+
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+  text-decoration: none;
+
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+
+
+/* End Footer */

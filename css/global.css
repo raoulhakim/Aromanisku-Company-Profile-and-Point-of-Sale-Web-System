@@ -1,0 +1,35 @@
+
+:root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-snippet: Snippet;
+    --font-droid-sans: "Droid Sans";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-21xl: 40px;
+    --font-size-5xl: 24px;
+    --font-size-13xl: 25px;
+    --font-size-66xl: 85px;
+    --font-size-lg: 18px;
+    --font-size-11xl: 30px;
+    --font-size-36xl: 55px;
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-firebrick: #c42828;
+    --color-brown: #a52727;
+    --color-gray-100: #0f0f0f;
+    --color-gray-200: rgba(0, 0, 0, 0.8);
+  
+    /* Border radiuses */
+    --br-19xl: 38px;
+    --br-27xl: 46px;
+    --br-3xl: 22px;
+    --br-29xl: 48px;
+    --br-36xl: 55px;
+    --br-42xl: 61px;
+    --br-38xl: 57px;
+  }
